@@ -1,5 +1,9 @@
 # Case folded string types
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Go Report Card](https://goreportcard.com/badge/github.com/gruzovator/cfstr)](https://goreportcard.com/report/github.com/gruzovator/cfstr)
+
+
 String based types that force string case (uppercase or lowercase).
 Types implement Stringer, json.Marshaler and json.Unmarshaler interfaces.
 
@@ -7,7 +11,7 @@ Type instances can be created:
 * from string with NewUpperCase or NewLowerCase function 
 * from json object bytes 
 
-## Example 1.
+## Example 1
 
 Force upper case for _MyStruct_ _Label_ field
 
@@ -40,7 +44,7 @@ func ExampleUpperCase() {
 ```
 
 
-## Example 2.
+## Example 2
 
 Force lower case and define distinct type for _Residency_: 
 
